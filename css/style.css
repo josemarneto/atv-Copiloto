@@ -66,15 +66,22 @@ header nav div a span {
 header nav{
     display: flex;
     justify-content:space-between;
-    margin: 4vw 1vw 8.7vw 1vw;
+    margin: 1vw 10vw 8.7vw 15vw;
 }
 header nav ul {
     display: flex;
-    padding: 0px 20px 0px 20px;
+    padding: 0px 10vw 0px 0vw;
 }
 header nav ul li {
     padding: 0px 20px 0px 20px;
 }
+header nav ul li a{
+    color: #868686 ;
+}
+header nav ul li a.cor1{
+    color: #232323;
+}
+
 /*============================================================
                          TOPO
 ==============================================================*/
@@ -99,6 +106,9 @@ main section.topo div button {
     padding: 20px 30px 20px 30px;
     font-weight: bold;
     margin: 1vw 3vw 1vw 1vw;
+}
+main section.topo div a{
+    text-decoration: underline;
 }
 /*============================================================
                          ME1O
@@ -136,7 +146,7 @@ main section.exp div{
 } 
 main section.exp div p {
     margin: 2vw 1vw 1vw 1vw;
-    font-size: 1.2rem;
+    font-size: 1.7rem;
 }
 main section.exp div p span {
     font-weight: bold;
@@ -144,13 +154,16 @@ main section.exp div p span {
 main section.exp div img {
     margin: 1vw;
 }
+main section.exp div p{
+    background-color: #f8f8f8;
+}
 /*============================================================
                          FOOTI
 ==============================================================*/
 footer {
     display: flex;
     justify-content: space-between;
-    margin: 5vw;
+    margin: 5vw 15vw 5vw 15vw;
 }
 footer div p {
     color: #232323; ;
@@ -160,7 +173,11 @@ footer ul {
     justify-content: right;
     margin: vw;
 }
-footer ul li.last-child {
-    padding: 10px 10px 10px 10px;
+footer ul li{
+    padding: 20px 0px 10px 10px;
     color: #868686;
+}
+footer ul li a{
+    color: #868686;
+    text-decoration: underline;
 }
